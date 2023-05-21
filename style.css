@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+   
+
+}
+body{
+    margin: 0 auto;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.212);
+}
+h1{
+    font-size:36px;
+}
+
+.header{
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+   
+    
+    background: rgba(0, 0, 0, 0.8);
+    /* border: none; */
+    box-shadow: 5px 5px 5rem black;
+    width: 90vw;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    gap: 1rem;
+    padding: 5rem;
+    
+
+}
+.label{
+    width: 100%;
+    color: red;
+    font-size: 1.5rem;
+    color: white;
+    
+    
+    
+}
+
+.input{
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 1rem;
+   border: 2px solid rgba(0, 0, 0, 0.212);
+    outline: none;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+   
+}
+
+.chekbox{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    
+    
+}
+.imagem{
+   
+    width: 80vw;
+    height: 60vh;
+    
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    gap: 0.5rem;
+    width: 40vw;
+    height: 60vh;
+    
+}
+#botao{
+    padding: 0.5rem 4rem;
+    box-sizing: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 60px;
+    
+    
+}
+#github{
+    color: rgb(22, 144, 153);
+    text-decoration: none;
+    font-size: 10px;
+   
+   
+}
